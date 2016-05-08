@@ -17,7 +17,7 @@ function load () {
 	function check () {
 		
 		var che= document.getElementById("check").value;
-		if(che=="Login")
+		if(che==="Login")
 		{
 		document.getElementById("register").style="display:none;";
 		document.getElementById("login").style="display:block;";
@@ -35,10 +35,10 @@ function load () {
 	{
 		
 		var check=document.getElementById("email").type;
-		if(check=="email")
+		if(check==="email")
 		{
 			var value=document.getElementById("email").value;
-			if(value=="")
+			if(value==="")
 			{
 
 				document.getElementById("error").innerHTML="Incorrect Email Address";
