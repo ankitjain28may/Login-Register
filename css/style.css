@@ -18,18 +18,21 @@
 				padding: 5%;
 				text-align: center;
 				border-bottom: 10px solid black;
+				box-sizing: border-box;
 
 			}
 			.outer
 			{
 				position: absolute;
 				width: 100%;
+				box-sizing: border-box;
 			}
 			.header {
 				height: 40%;
 				width: 100%;
 				background: black;
 				box-shadow: 10px 8px 16px 0 rgba(0, 0, 0, 0.5);
+				box-sizing: border-box;
 			}
 			.brand{
 				font-size: 50px;
@@ -61,6 +64,7 @@
 				width:200px; 
 				height:30px; 
 				border-radius:5%;
+				box-sizing: border-box;
 			}
 			.button
 			{
